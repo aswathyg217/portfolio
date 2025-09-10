@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aswathy Gopinatha Pillai — Portfolio</title>
+<meta name="description" content="Portfolio of Aswathy Gopinatha Pillai — Cybersecurity Master’s Student & Aspiring Security Engineer.">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root { --bg:#f8fafc; --text:#0f172a; --accent:#0ea5e9; --muted:#64748b; --card:#fff; --radius:12px; }
+[data-theme="dark"] { --bg:#0b1220; --text:#e6eef8; --accent:#60a5fa; --muted:#94a3b8; --card:#0f1724; }
+*{box-sizing:border-box}
+html,body{height:100%}
+body{font-family:"Inter",system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; margin:0; background:var(--bg); color:var(--text); line-height:1.5; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;}
+.container{max-width:1000px; margin:0 auto; padding:24px;}
+header{display:flex; align-items:center; justify-content:space-between; margin-bottom:28px;}
+.logo{font-weight:700; letter-spacing:0.6px;}
+nav a{margin-left:16px; text-decoration:none; color:var(--muted); font-weight:600;}
+.hero{display:grid; grid-template-columns:1fr 320px; gap:24px; align-items:center; margin-bottom:28px;}
+.card{background:var(--card); padding:18px; border-radius:var(--radius); box-shadow:0 6px 18px rgba(2,6,23,0.06);}
+.btn{display:inline-block; padding:10px 16px; border-radius:10px; background:var(--accent); color:white; text-decoration:none; font-weight:600;}
+.about{display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:28px;}
+.skills{display:flex; flex-wrap:wrap; gap:10px;}
+.skill{background:transparent; border:1px solid rgba(99,102,241,0.06); padding:8px 10px; border-radius:999px; font-weight:600; color:var(--muted);}
+.projects-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px;}
+.project{overflow:hidden; border-radius:10px;}
+.project img{width:100%; height:170px; object-fit:cover; display:block;}
+.footer{margin-top:32px; text-align:center; color:var(--muted)}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr; }
+  .about{grid-template-columns:1fr;}
+  .projects-grid{grid-template-columns:1fr;}
+  nav a{margin-left:8px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="logo">AGP</div>
+  <nav aria-label="Main Navigation">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="themeToggle" aria-label="Toggle dark mode">🌓</button>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <h1 style="margin:0 0 8px 0;">Aswathy Gopinatha Pillai</h1>
+    <p style="margin:0 0 16px 0; color:var(--muted)"><strong>Cybersecurity Master’s Student | Aspiring Security Engineer</strong><br>
+    Engineer with 2+ years of experience in project management and budgeting at LT Technology Services. Currently pursuing a Master’s in Cybersecurity in Germany. Strong foundation in electronics, risk mitigation, and resource optimization. Seeking a Werkstudent role in cybersecurity to apply technical and analytical skills in a dynamic, remote-friendly environment.<br> Based in Saarbrücken, Germany.</p>
+    <a class="btn" href="#projects">View Projects</a>
+    <a class="btn" href="sampleresume.pdf" style="margin-left:10px; background:transparent; color:var(--text); border:1px solid var(--muted)">Download Resume</a>
+    <div style="margin-top:18px; color:var(--muted)">Quick links: <a href="https://github.com/aswathyg217" target="_blank">GitHub</a> · <a href="https://linkedin.com/in/aswathyg217" target="_blank">LinkedIn</a></div>
+  </div>
+  <div class="card">
+    <img src="assets/you.jpg" alt="Aswathy Gopinatha Pillai photo" style="width:100%; height:260px; object-fit:cover; border-radius:8px; margin-bottom:12px;">
+    <div style="color:var(--muted); font-size:14px;">Cybersecurity enthusiast with strong project management background and passion for secure systems.</div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="card">
+    <h2 style="margin-top:0">About</h2>
+    <p style="color:var(--muted)">Engineer with 2+ years of experience in project management and budgeting at LT Technology Services. Currently pursuing a Master’s in Cybersecurity in Germany. Strong foundation in electronics, risk mitigation, and resource optimization.</p>
+    <h3>Skills</h3>
+    <div class="skills">
+      <span class="skill">Network Security</span>
+      <span class="skill">Web Security</span>
+      <span class="skill">Cryptography</span>
+      <span class="skill">Java</span>
+      <span class="skill">Android Basics</span>
+      <span class="skill">Project Management</span>
+    </div>
+  </div>
+  <div class="card">
+    <h2 style="margin-top:0">Experience & Education</h2>
+    <ul style="color:var(--muted); padding-left:18px; margin:0;">
+      <li><strong>LT Technology Services – Presales & Project Management</strong> — 2 years</li>
+      <li><strong>Master's in Cybersecurity</strong> — [University], expected [Year]</li>
+    </ul>
+    <h3 style="margin-top:12px">Contact</h3>
+    <p style="color:var(--muted)">Email: <a href="mailto:aswathyg217@gmail.com">aswathyg217@gmail.com</a></p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <article class="project card">
+      <div style="padding:12px;">
+        <h3 style="margin:0 0 8px 0">Coming Soon</h3>
+        <p style="color:var(--muted); margin:0 0 8px 0">I am currently building cybersecurity projects and will showcase them here soon.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="contact" style="margin-top:18px;" class="card">
+  <h2 style="margin-top:0">Contact</h2>
+  <form id="contactForm" onsubmit="return handleContact(event)">
+    <label>
+      Name<br>
+      <input type="text" id="name" required style="width:100%; padding:8px; margin-top:6px; border-radius:8px; border:1px solid #ddd;">
+    </label>
+    <div style="height:8px;"></div>
+    <label>
+      Email<br>
+      <input type="email" id="email" required style="width:100%; padding:8px; margin-top:6px; border-radius:8px; border:1px solid #ddd;">
+    </label>
+    <div style="height:8px;"></div>
+    <label>
+      Message<br>
+      <textarea id="message" rows="5" required style="width:100%; padding:8px; margin-top:6px; border-radius:8px; border:1px solid #ddd;"></textarea>
+    </label>
+    <div style="height:12px;"></div>
+    <button class="btn" type="submit">Send</button>
+    <button type="button" id="copyEmail" style="margin-left:8px; padding:8px 12px; border-radius:8px;">Copy email</button>
+  </form>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div>Made with ❤️ — Aswathy Gopinatha Pillai</div>
+  <div style="margin-top:8px; color:var(--muted)">© <span id="year"></span></div>
+</footer>
+
+</div>
+
+<script>
+// --- Small helper JS (no libraries)
+const publicEmail = "aswathyg217@gmail.com";
+
+// Theme toggle
+const themeToggle = document.getElementById('themeToggle');
+function setTheme(theme){
+  if(theme==='dark') document.documentElement.setAttribute('data-theme','dark');
+  else document.documentElement.removeAttribute('data-theme');
+  localStorage.setItem('theme',theme);
+}
+themeToggle.addEventListener('click', ()=>{
+  const cur = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+  setTheme(cur);
+});
+const saved = localStorage.getItem('theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+setTheme(saved);
+
+// Contact form mailto fallback
+function handleContact(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+  const subject = encodeURIComponent(`Portfolio message from ${name}`);
+  const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+  window.location.href = `mailto:${publicEmail}?subject=${subject}&body=${body}`;
+  return false;
+}
+
+// Copy email button
+document.getElementById('copyEmail').addEventListener('click', ()=>{
+  navigator.clipboard.writeText(publicEmail).then(()=> alert('Email copied to clipboard'));
+});
+
+// Footer year
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
